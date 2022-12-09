@@ -113,5 +113,35 @@
     border: none;
     width: 260px;
     background-color: transparent;
-    font-size: 1.4em;srx
+    font-size: 1.4em;
+    padding: 0px 5px;
+}
+
+.input_field input:focus{
+    outline: none;
+}
+
+#forgot_password a{
+    text-decoration: none;
+    font-size: 0.7em;
+    color: var(--color-dark-50);
+}
+
+#forgot_password a:hover{
+    color: var(--color-blue-50);
+}
+
+#login_button{
+    border: none;
+    background: var(--color-gradient);
+    padding: 7px;
+    border-radius: 4px;
+    color: var(--color-light-50);
+    font-weight: bold;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+#login_button:hover{
+    transform: scale(1.05);
 }
