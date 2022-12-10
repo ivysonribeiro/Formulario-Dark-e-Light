@@ -145,3 +145,14 @@
 #login_button:hover{
     transform: scale(1.05);
 }
+
+.dark#login {
+    color: var(--color-light-50);
+    background-color: var(--color-dark-100);
+}
+
+.dark#login .input_field input,
+.dark#login .input_field i {
+    color: var(--color-light-50);
+
+}
